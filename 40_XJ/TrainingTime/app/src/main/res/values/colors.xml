@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D53F51B5</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#7C03DAC5</color>
+    <color name="btColor">#1903A9F4</color>
+    <color name="color1">#DC800080</color>
+    <color name="Color2">#63FF00FF</color>
+    <color name="Color3">#03A9F4</color>
+    <color name="Color4">#F08080</color>
+    <color name="Color5">#C8CD5C5C</color>
+    <color name="Color6">#A1A003F4</color>
+</resources>

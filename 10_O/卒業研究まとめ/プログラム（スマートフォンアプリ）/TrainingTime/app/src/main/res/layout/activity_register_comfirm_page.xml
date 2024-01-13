@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="以下の情報を登録よろしいですか？"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/RegisButton"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:text="登録"
+            android:textSize="22sp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000"
+            android:background="@drawable/rounded_button" />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/Return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="戻る"
+            android:layout_gravity="left"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

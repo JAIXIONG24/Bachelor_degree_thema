@@ -1,0 +1,108 @@
+
+.cp_iptxt {
+        position: relative;
+        width: 35%;
+        margin: 40px 3%;
+}
+.cp_iptxt input[type='text'] {
+        font: 15px/24px sans-serif;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0.3em;
+        transition: 0.3s;
+        letter-spacing: 1px;
+        color: #000000;
+        border: 1px solid #ffffff;
+        box-shadow: 1px 1px 2px 0 #707070 inset;
+        border-radius: 4px;
+}
+.ef input[type='text']:focus {
+        outline: none;
+        box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+.cp_iptxt input[type='password'] {
+        font: 15px/24px sans-serif;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0.3em;
+        transition: 0.3s;
+        letter-spacing: 1px;
+        color: #000000;
+        border: 1px solid #ffffff;
+        box-shadow: 1px 1px 2px 0 #707070 inset;
+        border-radius: 4px;
+}
+.ef input[type='password']:focus {
+        outline: none;
+        box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+body {
+  width: 100%;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px -6px #00000073;
+}
+
+table tr {
+  background-color: #fff;
+}
+
+table th,
+table td {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+table  th {
+  width: 20%;
+  padding: 10px 0;
+  font-size: 14px;
+  padding: 15px;
+  background-color: #4EA1D5;
+  color:#fff;
+}
+
+table tr{
+  text-align: center;
+  width: 20%;
+  padding: 20px 0;
+  background-color: #fff;
+  color:#3a3a3a;
+}
+
+
+
+body {
+  background-color: #E5EAEA;
+}
+
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+
+table.type06 th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  background: #E85A70;
+  color: #ffffff;
+}
+table.type06 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+}

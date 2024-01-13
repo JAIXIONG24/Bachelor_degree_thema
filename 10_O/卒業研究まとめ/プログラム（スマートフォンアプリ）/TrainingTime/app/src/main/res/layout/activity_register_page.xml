@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新規登録"
+            android:textColor="@color/Color6"
+            android:textSize="50sp"
+            android:layout_marginTop="5dp"/>
+
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ユーザー名"
+            android:paddingRight="190dip"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/UserID"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:hint="例　i16000"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/user"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="10dip"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:background="@drawable/regis_round"/>
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="パスワード"
+            android:paddingRight="190dip"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:hint="半角英数字6文字以上15文字以内"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:background="@drawable/regis_round"/>
+
+
+        <EditText
+            android:id="@+id/Password2"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:hint="もう一度入力してください"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:background="@drawable/regis_round"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:paddingRight="180dip"
+            android:textSize="20sp">
+
+            <TextView
+                android:id="@+id/gakka1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:orientation="horizontal"
+                android:text="学科 "
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/gakka2"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:paddingStart="20dip"
+                android:background="@drawable/regis_round"
+                android:drawableStart="@drawable/select_box"
+                android:drawableTint="@color/colorPrimaryDark"
+                android:paddingLeft="20dip"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:paddingRight="180dip"
+            android:textSize="20sp">
+
+            <TextView
+                android:id="@+id/gakunen1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学年 "
+                android:textColor="#000"
+                android:textSize="20sp"/>
+
+            <Spinner
+                android:id="@+id/gakune2"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingStart="20dip"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:background="@drawable/regis_round"
+                android:drawableEnd="@drawable/select_box"
+                android:textSize="30sp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/seat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出席番号"
+            android:paddingRight="210dip"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/seat"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:hint="1桁の場合は2桁で入力(例　04)"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:background="@drawable/regis_round"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名前"
+            android:paddingRight="250dip"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:background="@drawable/regis_round"
+            android:gravity="center"
+            android:hint="例　弓削太朗"
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/RegisButton"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:text="登録"
+            android:textSize="22sp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button"/>
+
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#F44336"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/Return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="戻る"
+            android:layout_gravity="left"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

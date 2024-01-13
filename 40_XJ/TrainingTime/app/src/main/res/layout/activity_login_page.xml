@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="142dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/userimage"/>
+
+
+        <EditText
+            android:id="@+id/UserID"
+            android:layout_width="260dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/user"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="10dip"
+            android:background="@drawable/regis_round"
+            android:singleLine="true"
+            android:hint="ユーザ名"
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="260dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/regis_round"
+            android:drawableLeft="@drawable/pass"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="10dip"
+            android:gravity="center"
+            android:hint="パスワード"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="260dp"
+            android:layout_height="43dp"
+            android:text="ログイン"
+            android:textSize="22sp"
+            android:layout_marginTop="50dp"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button"/>
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#F44336"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/Return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="戻る"
+            android:layout_gravity="left"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+</ScrollView>

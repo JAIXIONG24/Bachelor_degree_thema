@@ -1,0 +1,9 @@
+git
+Id:tabusalab@gmail.com
+Pass:tabusalab2020
+
+
+server
+52.156.45.138
+ID:db2019
+Pass:db2019-pass
